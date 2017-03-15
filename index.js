@@ -20,7 +20,7 @@ function getJumboLoanType( opts ) {
       type = opts.loanType,
       limits = {};
 
-  // Each loan type has a standard limit and may optionally have a lower
+  // Each loan type has a standard limit and may optionally have a higher
   // one based on the relevant county.
   limits.gse = {
     defaultVal: 424100,
